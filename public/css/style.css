@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 72%
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+h1 {
+    font-size: 2.6rem;
+    text-align: center;
+}
+li, 
+button, 
+label, 
+input, 
+p {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 4.8rem;
+}
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+h4,
+h5 {
+    font-size: 2.8rem;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    border: black solid 1px;
+    padding: 2px;
+}
+button{
+    padding: 2rem 6rem;
+    background: #4c6e97;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+/* Nav Section with HERO */
+
+.main-head {
+    background: #131c27;
+    color: white;
+}
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    min-height: 5vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    margin-left: auto;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.hero1 {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent) ,url('./assets/laidbackpeeps.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero2 {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent) ,url('./assets/coffeeshop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero3 {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent) ,url('./assets/coffeeshop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero1, .hero2 h2 {
+    color: #fff;
+}
+
+.hero h3{
+    padding: 5rem;
+}
+
+footer {
+    min-height: 15vh;
+    background: #000;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+}
