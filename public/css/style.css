@@ -31,6 +31,7 @@ h2 {
 h3 {
     font-size: 3rem;
     font-weight: normal;
+    color: black;
 }
 h4,
 h5 {
@@ -120,7 +121,7 @@ nav ul{
 
 .hero3 {
     min-height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent) ,url('./assets/coffeeshop.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent) ,url('./assets/coffeemenu.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,12 +133,26 @@ nav ul{
     text-align: center;
 }
 
-.hero1, .hero2 h2 {
+.hero4 {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent) ,url('./assets/notepad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero1, .hero2, .hero3, .hero4 {
     color: #fff;
 }
 
 .hero h3{
-    padding: 5rem;
+    padding: 4rem;
 }
 
 footer {
